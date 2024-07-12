@@ -1425,16 +1425,16 @@ std::array<unsigned int, 2> touchesIndexAnIn = {{touch1IndexAnIn, touch2IndexAnI
 std::array<unsigned int, 2> touchesDiameterAnIn = {{touch1DiameterAnIn, touch2DiameterAnIn}};
 enum
 {
-	switch1 = 15,
-	switch2 = 14,
-	trigIn1 = 11,
-	trigIn2 = 10,
-	trigIn3 = 13,
-	trigIn4 = 12,
+	switch1 = 15, // 26
+	switch2 = 14, // 25
+	trigIn1 = 11, // 22
+	trigIn2 = 9, // 20
+	trigIn3 = 13, // 24
+	trigIn4 = 12, // 23
 	trigOut1 = 0,
 	trigOut2 = 1,
-	trigOut3 = 6,
-	trigOut4 = 9,
+	trigOut3 = 3,
+	trigOut4 = 8,
 	ledOut1 = 2,
 	ledOut2 = 4,
 	ledOut3 = 5,
